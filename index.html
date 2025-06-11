@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Pooja Reddy Arava</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Pooja Reddy Arava</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="Assets/IMG_5713Second Pic.jpeg" alt="Pooja Reddy Arava Profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Pooja Reddy</h1>
+        <p class="section__text__p2">Software Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('Assets/Arava-PoojaReddy_ Resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="Assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/aravapooja'"
+            
+          />
+          <img
+            src="Assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/Poojareddy11'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="Assets/IMG_5114Second Pic.jpeg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="Assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>1 year <br />Software Developer</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="Assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+               <p><strong>Master’s in Computer Science</strong><br />Bachelor of Technology in CS</p>
+            </div>
+           <div class="card">
+           
+           </div>
+  </div>
+
+  <ul class="about-list">
+    <li>
+      Software Developer with experience in full-stack development, machine learning, and API-driven system integrations. Specialized in Java, Python, React, and SQL with real-world exposure to scalable architectures and enterprise cloud solutions.
+    </li>
+    <li>
+      Proficient in building RESTful APIs using Java and MuleSoft, integrating complex data systems for better automation and performance.
+    </li>
+    <li>
+      Hands-on experience with real-time ML applications including Cardiovascular Disease Prediction and Human Activity Recognition. Published research at IEEE AIIoT 2025 exploring the use of LLMs in wearable health devices.
+    </li>
+    <li>
+      Strong knowledge in Agile development, CI/CD using Azure DevOps and Jenkins, and visualization tools like Power BI and Tableau.
+    </li>
+    <li>
+      Passionate about leveraging AI and cloud technologies to deliver user-focused, scalable, and impactful solutions.
+    </li>
+  </ul>
+</section>
+      <img
+        src="Assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+
+    <section id="experience">
+    <p class="section__text__p1"></p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+    <div class="details-container">
+      <h2 class="experience-sub-title">Application Development Associate at Accenture Solutions Pvt. Ltd.</h2>
+      <p class="section__text__p2">Oct 2022 – Jun 2023 | Bangalore, India</p>
+       <div class="article-container">
+      <ul>
+      <li><strong>Designed and implemented</strong> 3+ enterprise-grade integration projects using MuleSoft, improving data flow efficiency by 40% and reducing API response time by 25%.</li>
+      <li><strong>Utilized the MuleSoft platform</strong>, including:
+        <ul>
+          <li>Anypoint Studio, API Manager, Runtime Manager, and Exchange for full API lifecycle management.</li>
+          <li>Created <strong>reusable APIs and connectors</strong> using RAML and Java to optimize backend scalability across distributed systems.</li>
+        </ul>
+      </li>
+      <li><strong>Built responsive front-end components</strong> using React.js to visualize API data in real time, enhancing user experience and monitoring.</li>
+      <li><strong>Collaborated with business analysts</strong> to gather and convert requirements into technical specifications, leading to 5+ successful enterprise API deployments.</li>
+      <li><strong>Executed end-to-end testing</strong>, including unit, integration, and automated tests, to ensure robust system performance.</li>
+      <li><strong>Contributed to system documentation</strong>, deployment architecture design, and streamlined DevOps workflows for CI/CD efficiency.</li>
+      </ul>
+    </div>
+  </div>
+<div class="details-container">
+  <h2 class="experience-sub-title">Teaching Assistant at Cleveland State University</h2>
+  <p class="section__text__p2">Jan 2024 – May 2025 | Cleveland, USA</p>
+  <div class="article-container">
+    <ul>
+      <li>Assisted in teaching multiple computer science courses, including:
+        <ul>
+          <li>CIS 636: Software Quality Assurance</li>
+          <li>CIS 530: Database Systems</li>
+          <li>CIS 534: Software Engineering</li>
+          <li>CIS 524: Comparative Programming Languages</li>
+          <li>CIS 340: System Programming</li>
+        </ul>
+      </li>
+      <li>Supported students through grading, lab sessions, assignment clarification, and one-on-one tutoring.</li>
+      <li>Collaborated closely with Professors Dr. Aditi Singh and Dr. Yongjian Fu to enhance lecture delivery and course content quality.</li>
+      <li>Gained hands-on experience in system testing, C programming, and Haskell through academic support and course material development.</li>
+    </ul>
+  </div>
+  </div>
+  </div>
+</div>
+</section>
+          
+     <img
+  src="Assets/arrow.png"
+  alt="Arrow icon"
+  class="icon arrow"
+  onclick="location.href='./#projects'"
+/>
+</section>
+
+<section id="projects">
+  <p class="section__text__p1"></p>
+  <h1 class="title">Projects</h1>
+  <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="Assets/CVD.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Cardiovascular Disease Risk Prediction</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Poojareddy11/Predicting-CVD-Disease'"
+              >
+                Github
+              </button>
+              
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="Assets/Untitled 5.jpg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Human Activity Recognition Using Machine Learning</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Poojareddy11/HAR-Human_Acitivity_Recognition-'"
+              >
+                Github
+              </button>
+             
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="Assets/Untitled 6.jpg"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Mommy Wellness Website</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Poojareddy11/mommy-website'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <img
+        src="Assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="Assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">reddypooja981@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="Assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/aravapooja/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Pooja Reddy Arava. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
